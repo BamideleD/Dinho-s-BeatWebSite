@@ -1,14 +1,18 @@
-.BackgroundColor{
+.col{
     
     border: 2px solid rgba(218, 165, 32, 0.237);
-    /* border-radius: 0 0 0 0; */
+    border-radius: 0 0 0 0;
     margin: 10px;
-    /* padding-right: 0%; */
+    padding-right: 0%;
     
     text-align: center;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.779);
+
 }
+
+
+
 b{
     padding: 10px
  }
@@ -34,5 +38,55 @@ b{
     margin: 0px 0px
     
    
+    
+}
+
+.row {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.cont{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col:hover {
+    margin: 5px;
+    color: goldenrod;
+    
+    -webkit-animation: glow 3s ease-in-out infinite alternate, flow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate, flow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate, flow 3s ease-in-out infinite alternate;
+
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px goldenrod, 0 0 20px goldenrod, 0 0 30px #e6b400, 0 0 40px #e6ad00, 0 0 50px #e6ad00, 0 0 60px #e6ad00, 0 0 70px #e68600;
+    }
+    to {
+      text-shadow: 0 0 20px goldenrod, 0 0 30px #443302, 0 0 40px #3d3e04, 0 0 50px #4f5007, 0 0 60px #8a6211, 0 0 70px #72621d, 0 0 80px #725c0c;
+    }
+  }
+
+@keyframes flow {
+    from {
+        box-shadow: 0 0 2px goldenrod, 0 0 4px goldenrod, 0 0 6px #e6b400, 0 0 8px #e6ad00, 0 0 10px #e6ad00, 0 0 12px #e6ad00, 0 0 14px #e68600;
+    }
+    to {
+        box-shadow: 0 0 4px goldenrod, 0 0 6px #443302, 0 0 8px #3d3e04, 0 0 10px #4f5007, 0 0 12px #8a6211, 0 0 14px #72621d, 0 0 16px #725c0c;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .col {
+        margin: auto;
+        
+    }
     
 }
