@@ -9,6 +9,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Beat />
+    <Beat />
+    <Beat />
+    <Beat />
+
   </React.StrictMode>
 );
 

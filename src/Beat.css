@@ -1,0 +1,22 @@
+.BackgroundColor{
+    
+    border: 2px solid rgba(218, 165, 32, 0.237);
+    /* border-radius: 0 0 0 0; */
+    margin: 10px;
+    /* padding-right: 0%; */
+    
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.779);
+}
+
+.cha{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px 0px
+    
+   
+    
+}
