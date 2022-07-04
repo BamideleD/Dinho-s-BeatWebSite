@@ -16,6 +16,7 @@ const App = () => {
             <div className="">
                 <Beatlist />
             </div>
+            <footer className="tc"> ALL MUSIC AND SERVICES BELONG AND/OR IS RENDERED BY DINHO </footer>
             
         </div>
     )
