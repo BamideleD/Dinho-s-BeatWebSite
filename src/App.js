@@ -10,13 +10,13 @@ import './App.css';
 const App = () => {
     return (
         <div>
-            <h1 className ="tc">
+            <h1 className ="tc header">
             🗿 DINHO'S BEATS
             </h1>
             <div className="">
                 <Beatlist />
             </div>
-            <footer className="tc"> ALL MUSIC AND SERVICES BELONG AND/OR IS RENDERED BY DINHO </footer>
+            <footer className="tc header"> ALL MUSIC AND SERVICES BELONG AND/OR IS RENDERED BY DINHO </footer>
             
         </div>
     )
