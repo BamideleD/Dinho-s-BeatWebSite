@@ -1,0 +1,25 @@
+.searcher{
+    outline: 0;
+    background-color: rgba(0, 0, 0, 0.383);
+    border-color: rgba(218, 165, 32, 0.343);
+    width: 200px;
+}
+
+.tr {
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: 10px;
+    margin-left: auto;
+    
+  
+    
+}
+
+::placeholder {
+    color: rgba(218, 165, 32, 0.876);
+    
+}
+
+input{
+    color: rgb(218, 165, 32, 0.876);
+}
