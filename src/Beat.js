@@ -2,9 +2,10 @@ import React from "react";
 import "./Beat.css"
 
 
+
 const Beat = ({title, type, imgalt, imgsrc, beatsrc}) => {
     return(
-        <div className="cont" >
+        <div className="container" >
             <div className="row">
                 <div className="col">
                     <img src= {imgsrc} alt={imgalt} height="100" width="100" />

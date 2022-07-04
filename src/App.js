@@ -13,7 +13,7 @@ const App = () => {
             <h1 className ="tc">
             🗿 DINHO'S BEATS
             </h1>
-            <div>
+            <div className="">
                 <Beatlist />
             </div>
             

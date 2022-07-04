@@ -7,7 +7,7 @@ import './Beatlist.css';
 
 const Beatlist = () => {
     return(
-        <div className="">
+        <div className="row">
             {
                 Beatinfo.map((user, i) => {
                     return(
