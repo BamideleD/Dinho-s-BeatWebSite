@@ -7,7 +7,7 @@
     }
   }
 
-@keyframes flow {
+@keyframes jlow {
     from {
         text-shadow: 0 0 2px goldenrod, 0 0 4px goldenrod, 0 0 6px #e6b400, 0 0 8px #e6ad00, 0 0 10px #e6ad00, 0 0 12px #e6ad00, 0 0 14px #e68600;
     }
@@ -24,7 +24,7 @@
 .header:hover{
     color: goldenrod;
     
-    -webkit-animation: glow 3s ease-in-out infinite alternate, flow 3s ease-in-out infinite alternate;
-    -moz-animation: glow 3s ease-in-out infinite alternate, flow 3s ease-in-out infinite alternate;
-    animation: glow 3s ease-in-out infinite alternate, flow 3s ease-in-out infinite alternate;
+    -webkit-animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
 }
