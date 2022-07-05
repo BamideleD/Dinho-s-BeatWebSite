@@ -17,15 +17,31 @@
 }
 
 
-.header{
-    font-variant: small-caps;
-    font-weight: lighter;
-}
-.header:hover{
-    color: goldenrod;
-    
-    -webkit-animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
-    -moz-animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
-    animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
+
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: 50;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+  }
+
+
+
+h1 {
+  font-family: 'SEGA LOGO FONT' ;
+  
 }
 
+.header{
+  font-variant: small-caps;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+}
+.header:hover{
+  color: goldenrod;
+  
+  -webkit-animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
+  animation: glow 3s ease-in-out infinite alternate, jlow 3s ease-in-out infinite alternate;
+}

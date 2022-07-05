@@ -1,11 +1,10 @@
 import React from "react";
 import Beat from "./Beat";
-import Beatinfo from "./Beatinfo";
 import './Beatlist.css';
 
 
 
-const Beatlist = () => {
+const Beatlist = ({Beatinfo}) => {
     return(
         <div className="row">
             {

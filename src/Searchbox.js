@@ -3,13 +3,15 @@ import "./Searchbox.css";
 
 
 
-const Searchbox = () => {
+
+const Searchbox = ({Searchchange}) => {
     return(
         <div className="tr">
             <input 
                 className="ba br0 searcher " 
                 type='search' 
                 placeholder="Search Beats"
+                onChange={Searchchange}
             />
         </div>
     )
