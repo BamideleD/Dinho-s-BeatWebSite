@@ -1,9 +1,9 @@
 import React, {Component} from "react";
-import Beatlist from "./BeatList";
+import Beatlist from "../Components/BeatList";
 import './App.css';
-import Searchbox from "./Searchbox";
-import Beatinfo from "./Beatinfo";
-import Scroll from "./Scroll";
+import Searchbox from "../Components/Searchbox";
+import Beatinfo from "../Beatinfo";
+import Scroll from "../Components/Scroll";
 
 
 
