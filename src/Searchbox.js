@@ -10,7 +10,7 @@ const Searchbox = ({Searchchange}) => {
             <input 
                 className="ba br0 searcher " 
                 type='search' 
-                placeholder="Search Beats"
+                placeholder="search beats"
                 onChange={Searchchange}
             />
         </div>
