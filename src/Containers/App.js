@@ -4,6 +4,7 @@ import './App.css';
 import Searchbox from "../Components/Searchbox";
 import Beatinfo from "../Beatinfo";
 import Scroll from "../Components/Scroll";
+import Error from "../Components/Error"; 
 
 
 
@@ -38,7 +39,9 @@ class App extends Component {
                 </h1>
                 <Searchbox Searchchange = {this.onsearchChange}/>
                 <Scroll>
-                    <Beatlist Beatinfo = {filteredBeatinfo} />
+                    <Error>
+                        <Beatlist Beatinfo = {filteredBeatinfo} />
+                    </Error>       
                 </Scroll>
                 <footer className="tc header pa2"> ALL MUSIC AND SERVICES BELONG AND/OR IS RENDERED BY DINHO </footer>
                 
