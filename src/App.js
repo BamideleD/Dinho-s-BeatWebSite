@@ -3,6 +3,7 @@ import Beatlist from "./BeatList";
 import './App.css';
 import Searchbox from "./Searchbox";
 import Beatinfo from "./Beatinfo";
+import Scroll from "./Scroll";
 
 
 
@@ -36,8 +37,10 @@ class App extends Component {
                     </div>
                 </h1>
                 <Searchbox Searchchange = {this.onsearchChange}/>
-                <Beatlist Beatinfo = {filteredBeatinfo} />
-                <footer className="tc header"> ALL MUSIC AND SERVICES BELONG AND/OR IS RENDERED BY DINHO </footer>
+                <Scroll>
+                    <Beatlist Beatinfo = {filteredBeatinfo} />
+                </Scroll>
+                <footer className="tc header pa2"> ALL MUSIC AND SERVICES BELONG AND/OR IS RENDERED BY DINHO </footer>
                 
             </div>
         )
