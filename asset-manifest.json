@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Dinho-s-BeatWebSite/static/css/main.a8348350.css",
+    "main.js": "/Dinho-s-BeatWebSite/static/js/main.75689a03.js",
+    "static/js/787.eab25118.chunk.js": "/Dinho-s-BeatWebSite/static/js/787.eab25118.chunk.js",
+    "static/media/SEGA.woff": "/Dinho-s-BeatWebSite/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
+    "index.html": "/Dinho-s-BeatWebSite/index.html",
+    "main.a8348350.css.map": "/Dinho-s-BeatWebSite/static/css/main.a8348350.css.map",
+    "main.75689a03.js.map": "/Dinho-s-BeatWebSite/static/js/main.75689a03.js.map",
+    "787.eab25118.chunk.js.map": "/Dinho-s-BeatWebSite/static/js/787.eab25118.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8348350.css",
+    "static/js/main.75689a03.js"
+  ]
+}
